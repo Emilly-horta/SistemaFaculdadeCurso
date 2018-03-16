@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="334.0" prefWidth="479.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CadastroController">
+   <children>
+      <Text layoutX="134.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cadastro de Campus">
+         <font>
+            <Font name="Baskerville Old Face" size="24.0" />
+         </font>
+      </Text>
+      <Label layoutX="52.0" layoutY="90.0" text="Nome" />
+      <Button fx:id="btCancelar" layoutX="303.0" layoutY="291.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="75.0" text="Cancelar" />
+      <Button fx:id="btCadastrar" layoutX="398.0" layoutY="291.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="75.0" text="Cadastrar" />
+      <TextField fx:id="tfNome" layoutX="52.0" layoutY="114.0" prefHeight="26.0" prefWidth="396.0" />
+      <TextField fx:id="tfLocalidade" layoutX="52.0" layoutY="174.0" prefHeight="26.0" prefWidth="396.0" />
+      <TextField fx:id="tfNome11" layoutX="52.0" layoutY="235.0" prefHeight="26.0" prefWidth="396.0" />
+      <Label layoutX="52.0" layoutY="150.0" text="Localidade" />
+      <Label layoutX="57.0" layoutY="210.0" text="Unidade da Federação" />
+   </children>
+</AnchorPane>
